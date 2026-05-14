@@ -1,1 +1,1 @@
- // IF  ELSE   ( ABSOLUTE OPERATOR )
+que 7 => display this gp 1,2,4,8,...upto n terms
