@@ -218,7 +218,7 @@ public class may {
 // }
 
 //print astha n times .take n input from user
-// Scanner sc=new Scanner(System.in);
+Scanner sc=new Scanner(System.in);
 
 //  System.out.println("enter n terms ");
 //   int n=sc.nextInt();
@@ -309,10 +309,152 @@ public class may {
 
 // for(int i = 65; i <= 90; i++){
 //     System.out.println((char)i + " " + i);
-System.out.println("vg");
 // }
 
 
+
+//que 9  find number is composite or not 
+
+
+// System.out.println("enter number");
+// int n= sc.nextInt();
+//    int count = 0;
+// for(int i=1;i<n;i++)
+// {
+//   if(n%i==0){
+//     count++;
+
+//   }
+// }
+// if(count>2){
+//   System.out.println("composite " );
+// }
+// else{
+//   System.out.println("not composite");
+// }
+
+// extra approach 
+
+// for(int i=2;i<n-1;i++){
+//   if(n%i==0){
+//     System.out.println("composite number");
+// //     break;
+//   }
+// }
+
+//prime number 
+
+
+// int count=0;
+// for(int i=1;i<=n;i++){
+//   if(n%i==0)
+// {
+//   count++;
+// }}
+// if(count==2){
+//   System.out.println("prime");
+// }
+// else{
+//   System.out.println("notprime");
+// }
+
+
+//count digits 
+
+
+// int n=56719;
+// int count=0;
+// while(n!=0){
+//   n/=10;
+//   count++;
+  
+// }
+// System.out.println(count);
+
+
+
+// print sum of digits
+// int i;
+// int n=65142;
+// int count=0;
+// while(n!=0){
+//  i= n%10;
+//   count=count+i;
+//   n/=10;
+
+
+// }
+// System.out.println("sum is " + count);
+
+
+
+// reverse a number
+// int n=1286;
+// int i;
+// int reverse=0;
+//  while(n!=0){
+//   i=n%10;
+//  reverse= reverse*10+i;
+//   n=n/10;
+  
+//  }
+//  System.out.println(reverse);
+
+
+
+
+//print sum of number and its reverse;
+
+// int n=1286;
+// int original=n;
+// int i;
+// int reverse=0;
+//  while(n!=0){
+//   i=n%10;
+//  reverse= reverse*10+i;
+//   n=n/10;
+  
+//  }
+//  System.out.println(reverse);
+
+//  int sum= original + reverse;
+//  System.out.println("sum is : " + sum);
+//  int againreverse=0;
+//   while(sum!=0){
+//   int digit=sum%10;
+//  againreverse= againreverse*10+digit;
+//   sum=sum/10;
+  
+//  }
+//  System.out.println(againreverse);
+
+
+
+// factorial of a number
+//  int n=6;
+//  int f=1;
+//  for(int i=1;i<=5;i++){
+//   f*=i;
+//  }
+// System.out.println(f);
+
+
+int n=124;
+int i;
+int original=n;
+int reverse=0;
+ while(n!=0){
+  i=n%10;
+ reverse= reverse*10+i;
+  n=n/10;
+  
+ }
+ if(reverse==original){
+  System.out.println("plandrone");
+ }else{
+  System.out.println("not palandrone");
+ }
+ 
 
  }
 }
