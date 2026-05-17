@@ -439,25 +439,148 @@ Scanner sc=new Scanner(System.in);
 // System.out.println(f);
 
 
-int n=124;
-int i;
-int original=n;
-int reverse=0;
- while(n!=0){
-  i=n%10;
- reverse= reverse*10+i;
-  n=n/10;
+// int n=124;
+// int i;
+// int original=n;
+// int reverse=0;
+//  while(n!=0){
+//   i=n%10;
+//  reverse= reverse*10+i;
+//   n=n/10;
   
- }
- if(reverse==original){
-  System.out.println("plandrone");
- }else{
-  System.out.println("not palandrone");
- }
+//  }
+//  if(reverse==original){
+//   System.out.println("plandrone");
+//  }else{
+//   System.out.println("not palandrone");
+//  }
+
+
+
+
+// Pattern Printing
+// int row = 4;
+// int column=4;
+
+// for(int i=1;i<=row;i++){
+//   for(int j=1;j<=column;j++){
+//     System.out.print("*"  + " ");
+//   }
+//   System.out.println();
+// }
  
 
- }
+
+
+//que 2 print 1 2 3 4
+              // 1 2 3 4
+              // 1 2 3 4
+              // 1 2 3 4
+
+// int n=4;
+
+//  for(int i=1;i<=n;i++){
+//   for(int j=1;j<=n;j++){
+//        System.out.print(j + " ");
+//   }
+//   System.out.println();
+//  }
+
+
+
+
+// que
+// print   A B C D
+//         A B C D
+//         A B C D
+//         A B C D 
+
+
+// int n=4;
+
+//  for(int i=1;i<=n;i++){
+//   for(int j=65;j<=68;j++){
+//        System.out.print((char)j + " ");
+//   }
+//   System.out.println();
+//  }
+
+
+// print 1 1 1 1
+//       2 2 2 2
+//       3 3 3 3
+//       4 4 4 4
+
+// int n = 4;
+
+// for(int i=1; i<=n; i++){
+//     for(int j=1; j<=n; j++){
+//         System.out.print(i + " ");
+//     }
+//     System.out.println();
+// }
+
+
+
+
+// print A A A A
+//       B B B B 
+//       C C C C 
+//       D D D D 
+
+
+// int n = 4;
+
+// for(int i=65; i<=68; i++){
+//     for(int j=1; j<=n; j++){
+//         System.out.print((char)(i) + " ");
+//     }
+//     System.out.println();
+// }
+
+
+// print a a a a
+//       b b b b 
+//       c c c c 
+//       d d d d 
+
+
+// int n = 4;
+
+// for(int i=97; i<=100; i++){
+//     for(int j=1; j<=n; j++){
+//         System.out.print((char)(i) + " ");
+//     }
+//     System.out.println();
+// }
+
+// print *
+//       * * 
+//       * * * 
+//       * * * *
+
+// int n=4;
+// for(int i=1; i<=n; i++){
+//     for(int j=1; j<=i; j++){
+//         System.out.print( "*+ " ");
+//     }
+//     System.out.println();
+// }
+
+
+
+int n=4;
+for(int i=1; i<=n; i++){
+    for(int j=1; j<=i; j++){
+        System.out.print( j + " ");
+    }
+    System.out.println();
 }
+
+    }
+    }
+    
+
 
 
 
