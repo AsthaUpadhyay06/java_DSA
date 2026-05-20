@@ -635,19 +635,89 @@ Scanner sc=new Scanner(System.in);
 // }
 
 
-int n=4;
-for(int i=1; i<=n; i++){
-    for(int j=1; j<=n+1-i; j++){
-        System.out.print("*" + " ");
+// int n=4;
+// for(int i=1; i<=n; i++){
+//     for(int j=1; j<=n+1-i; j++){
+//         System.out.print("*" + " ");
+//     }
+//     System.out.println();
+// }
+
+
+
+// print 
+// a b c d 
+// a b c 
+// a b 
+// a
+
+
+// int n=4;
+// for(int i=1; i<=n; i++){
+//     for(int j=1; j<=n+1-i; j++){
+//         System.out.print((char)(96+j) + " ");
+//     }
+//     System.out.println();
+// }
+
+
+//print 
+// A B C D 
+// A B C 
+// A B 
+// A
+
+
+// int n=4;
+// for(int i=1; i<=n; i++){
+//     for(int j=1; j<=n+1-i; j++){
+//         System.out.print((char)(64+i) + " ");
+//     }
+//     System.out.println();
+// }
+
+
+
+
+//HOLLOW RECTANGLE  
+
+// int m=4;
+// int n=5;
+// for(int i=1; i<=m; i++){
+//     for(int j=1; j<=n; j++){
+//         if(i==1 || i==m || j==1 || j==n){
+//         System.out.print("* ");
+//         }
+//         else{
+//             System.out.print("  ");
+//         }
+//            }
+//     System.out.println();
+// }
+
+
+
+//starplus
+
+
+
+int n=5;
+        int mid = n / 2 + 1;
+
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= n; j++) {
+
+                if(i == mid || j == mid) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println( );
+        }
     }
-    System.out.println();
 }
-
-
-
-    }
-    }
-    
 
 
 
