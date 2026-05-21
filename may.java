@@ -753,21 +753,133 @@ Scanner sc=new Scanner(System.in);
 // }
 
 
-int n=9;
+// int n=9;
 
-for(int i=1;i<=n;i=i+2){
-    for(int j=1;j<=i;j=j+2){
-        System.out.print(j);
+// for(int i=1;i<=n;i=i+2){
+//     for(int j=1;j<=i;j=j+2){
+//         System.out.print(j);
+        
+//     }
+   
+//     System.out.println(  );
+// }
+
+
+
+// star triangle vertically flipped
+
+// int n=4;
+
+
+// for(int i=1;i<=n;i++){
+//     for(int j=1;j<=n-i;j++){
+//         System.out.print(" ");
+        
+//     }
+// for( int j=1;j<=i;j++){
+//     System.out.print("*");
+// }
+   
+//     System.out.println(  );
+// }
+
+//Numbered Triangle vertically flipped
+
+
+
+// int n=4;
+
+
+
+// for(int i=1;i<=n;i++){
+//     for(int j=1;j<=n-i;j++){
+//         System.out.print(" ");
+        
+//     }
+// for( int j=1;j<=i;j++){
+//     System.out.print(j);
+  
+// }
+   
+//     System.out.println(  );
+// }
+
+
+
+
+//Alphabet triangle VF
+
+
+// int n=4;
+
+
+
+// for(int i=1;i<=n;i++){
+//     for(int j=1;j<=n-i;j++){
+//         System.out.print(" ");
+        
+//     }
+// for( int j=1;j<=i;j++){
+//     System.out.print((char)(64+i));
+  
+// }
+   
+//     System.out.println(  );
+// }
+
+
+
+// Rhombus
+
+// int n=4;
+// for(int i=1;i<=n;i++){
+//     for(int j=1;j<=n-i;j++){
+//         System.out.print(" ");
+        
+//     }
+//     for(int j=1;j<=n;j++){
+//         System.out.print("*");
+//     }
+//     System.out.println();
+//     }
+
+
+
+
+
+// int n=5;
+// for(int i=1;i<=n;i++){
+//     for(int j=1;j<=i;j++){
+//         System.out.print(" ");
+        
+//     }
+ 
+//     for(int j=1;j<=n+1-i;j++){
+//         System.out.print("*");
+//     }
+//     System.out.println();
+//     }
+
+
+//pyramid
+
+int n=4;
+for(int i=1;i<=n;i++){
+    for(int j=1;j<=n-i;j++){
+        System.out.print(" ");
         
     }
-   
-    System.out.println(  );
-}
-
-
-
-
+ 
+    for(int j=1;j<=2*i-1;j++){
+        System.out.print("*");
     }
+    System.out.println();
+    }
+
+
+
+
+}
 }
 
 
