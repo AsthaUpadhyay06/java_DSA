@@ -863,24 +863,128 @@ Scanner sc=new Scanner(System.in);
 
 //pyramid
 
-int n=4;
-for(int i=1;i<=n;i++){
-    for(int j=1;j<=n-i;j++){
-        System.out.print(" ");
+// int n=4;
+// for(int i=1;i<=n;i++){
+//     for(int j=1;j<=n-i;j++){
+//         System.out.print(" ");
         
-    }
+//     }
  
-    for(int j=1;j<=2*i-1;j++){
-        System.out.print("*");
-    }
-    System.out.println();
-    }
+//     for(int j=1;j<=2*i-1;j++){
+//         System.out.print("*");
+//     }
+//     System.out.println();
+//     }
 
 
 
+//Diamond
+
+//     int n = 5;
+
+// // Upper part
+// for(int i=1; i<=n; i++){
+
+//     for(int j=1; j<=n-i; j++){
+//         System.out.print(" ");
+//     }
+
+//     for(int j=1; j<=2*i-1; j++){
+//         System.out.print("*");
+//     }
+
+//     System.out.println();
+// }
+
+// // Lower part
+// for(int i=n-1; i>=1; i--){
+
+//     for(int j=1; j<=n-i; j++){
+//         System.out.print(" ");
+//     }
+
+//     for(int j=1; j<=2*i-1; j++){
+//         System.out.print("*");
+//     }
+
+//     System.out.println();
+// } 
+
+
+
+
+//Bridge
+
+// int n=5;
+
+// for(int i=1;i<=n;i++){
+//     // left star
+//     for(int j=1;j<=n+1-i;j++){
+//         System.out.print("*"); // left star
+//     }
+//     for(int j=1;j<=2*i-2;j++){
+//     System.out.print(" "); //spaces 
+// }
+// //right star
+// for(int j=1;j<=n+1-i;j++){
+//     System.out.print("*"); //right star
+// }
+// System.out.println();
+// }
+
+
+
+// Number Spiral
+
+// int n=4;
+// for(int i=1;i<=2*n-1;i++){
+//     for(int j=1;j<=2*n-1;j++){
+//         int a=i,b=j;
+//         if(i>n) a=2*n-i;
+//         if(j>n) b=2*n-j;
+//         System.out.print(Math.min(a, b)+ " ");
+    
+//             }
+//              System.out.println();
+//         }
+     
+
+
+
+// FUNCTIONS/ METHODS
+
+// System.out.println(Math.sqrt(64));
+// System.out.println(Math.cbrt(8));
+// System.out.println(Math.abs(-49));
+// System.out.println(Math.floor(6.8));
+// System.out.println(Math.floor(-7.8));
+// System.out.println( Math.ceil(5.6));
+// System.out.println( Math.ceil(-5.6));
+// System.out.println(Math.min(3.56,4));
+// System.out.println(Math.min(-36,4));
+// System.out.println(Math.min(-36,-8));
+// System.out.println(Math.max(-36,-8));
+// System.out.println(Math.max(-36,-100));
+// System.out.println(Math.min(-36,-100));
+
+
+//Max Of three in built
+Scanner s =new Scanner(System.in);
+System.out.print("enter three number");
+int n=s.nextInt();
+int o=s.nextInt();
+int p=s.nextInt();
+System.out.println(Math.max(Math.max(n, o),p));
+
+
+
+
+
+   
+}
 
 }
-}
+
 
 
 
