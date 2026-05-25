@@ -969,18 +969,31 @@ Scanner sc=new Scanner(System.in);
 
 
 //Max Of three in built
-Scanner s =new Scanner(System.in);
-System.out.print("enter three number");
-int n=s.nextInt();
-int o=s.nextInt();
-int p=s.nextInt();
-System.out.println(Math.max(Math.max(n, o),p));
+// Scanner s =new Scanner(System.in);
+// System.out.print("enter three number");
+// int n=s.nextInt();
+// int o=s.nextInt();
+// int p=s.nextInt();
+// System.out.println(Math.max(Math.max(n, o),p));
+
+
+//Max Of four in built
+
+// int n=9;
+// int o=56;
+// int p=3;
+// int q=54;
+
+//  System.out.println(Math.max(Math.max(n, o), Math.max(p, q)));
+
+// System.out.println(Math.pow(2, 5));
+
+//go to next functions file
+
+//SYNTAK
 
 
 
-
-
-   
 }
 
 }

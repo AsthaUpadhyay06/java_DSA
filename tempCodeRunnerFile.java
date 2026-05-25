@@ -1,1 +1,0 @@
-System.out.print(Math.min(i, j));
