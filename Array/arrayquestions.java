@@ -49,6 +49,7 @@ public class arrayquestions {
                 
             }
         }
+        
         System.out.println(max);
     }
 }
