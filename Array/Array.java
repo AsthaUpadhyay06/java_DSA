@@ -35,6 +35,7 @@ public class Array {
             System.out.println("printing arrayy");
             for(int i=0;i<astha.length;i++){
                 System.out.println(astha[i]);
+                
             }
     
         }
