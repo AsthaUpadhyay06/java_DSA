@@ -12,6 +12,8 @@ public class que {
         }
         else{
             System.out.println(arr[i]+10);
+
+            
             
         }
        }
