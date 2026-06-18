@@ -93,23 +93,41 @@ public class arrayquestions {
 
 //find second Maximum
 
-int [] arr={4,6,2,6,8,88,866,332};
-int max=Integer.MIN_VALUE;
-int smax=Integer.MIN_VALUE;
-for(int i=0;i<arr.length;i++){
-   if(arr[i]>max){
-      max=arr[i];
-   }
-      }
-      for(int i=0;i<arr.length;i++){
-      if(arr[i]>smax && arr[i]!=max){
-         smax=arr[i];
-   }
+// int [] arr={4,6,2,6,8,88,866,332};
+// int max=Integer.MIN_VALUE;
+// int smax=Integer.MIN_VALUE;
+// for(int i=0;i<arr.length;i++){
+//    if(arr[i]>max){
+//       max=arr[i];
+//    }
+//       }
+//       for(int i=0;i<arr.length;i++){
+//       if(arr[i]>smax && arr[i]!=max){
+//          smax=arr[i];
+//    }
 
+// }
+//  System.out.println(smax);
+//  System.out.println(max);
+
+
+//Two pointer approach Reverse Array
+
+int [] arr={45,67,53,2,4,56,6,78,8};
+int n=arr.length;
+int i=0;
+int j=n-1;
+
+while(i<j){
+   int temp=arr[i];
+   arr[i]=arr[j];
+   arr[j]=temp;
+   i++;
+   j--;
 }
- System.out.println(smax);
- System.out.println(max);
-
+for(int ele:arr){
+   System.out.print(ele+ " ");
+}
     }
 }
        
