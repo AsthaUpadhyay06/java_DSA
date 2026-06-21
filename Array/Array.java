@@ -31,6 +31,7 @@ public class Array {
                 // OR 
 
                 astha[i]=sc.nextInt();
+                
             }
             System.out.println("printing arrayy");
             for(int i=0;i<astha.length;i++){

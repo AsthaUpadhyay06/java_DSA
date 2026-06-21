@@ -131,20 +131,48 @@ public class arrayquestions {
 
 //Rotate Array
 
-int [] arr={1,2,3,4,5};
-int d=2;
-int n=arr.length;
-for(int r=0;r<d;r++){
-    int first=arr[0];
-    for(int i=0;i<n-1;i++){
-        arr[i]=arr[i+1];
+// int [] arr={1,2,3,4,5};
+// int d=2;
+// int n=arr.length;
+// for(int r=0;r<d;r++){
+//     int first=arr[0];
+//     for(int i=0;i<n-1;i++){
+//         arr[i]=arr[i+1];
 
+//     }
+//     arr[n-1]=first;
+// }
+// for(int ele:arr){
+//     System.out.print(ele+ " ");
+// }
+
+
+//Segregate 0s ad 1s
+
+int []arr={1,0,0,1,1,0,0,1};
+ // count the number of zeroes and ones first
+  int countzero=0;
+  int countone=0;
+  for(int i=0;i<arr.length;i++){
+    if(arr[i]==0){
+        countzero++;
     }
-    arr[n-1]=first;
-}
-for(int ele:arr){
-    System.out.print(ele+ " ");
-}
+    else{
+        countone++;
+    }
+  }
+//   System.out.println(countone);
+//   System.out.println(countzero);
+
+  for(int i=0;i<countzero;i++){
+    arr[i]=0;
+  }
+  for(int i=countzero;i<arr.length;i++){
+    arr[i]=1;
+  }
+  for(int ele:arr){
+    System.out.print(ele + " ");
+  }
     }
 }
        
