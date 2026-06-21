@@ -113,20 +113,37 @@ public class arrayquestions {
 
 //Two pointer approach Reverse Array
 
-int [] arr={45,67,53,2,4,56,6,78,8};
-int n=arr.length;
-int i=0;
-int j=n-1;
+// int [] arr={45,67,53,2,4,56,6,78,8};
+// int n=arr.length;
+// int i=0;
+// int j=n-1;
 
-while(i<j){
-   int temp=arr[i];
-   arr[i]=arr[j];
-   arr[j]=temp;
-   i++;
-   j--;
+// while(i<j){
+//    int temp=arr[i];
+//    arr[i]=arr[j];
+//    arr[j]=temp;
+//    i++;
+//    j--;
+// }
+// for(int ele:arr){
+//    System.out.print(ele+ " ");
+// }
+
+//Rotate Array
+
+int [] arr={1,2,3,4,5};
+int d=2;
+int n=arr.length;
+for(int r=0;r<d;r++){
+    int first=arr[0];
+    for(int i=0;i<n-1;i++){
+        arr[i]=arr[i+1];
+
+    }
+    arr[n-1]=first;
 }
 for(int ele:arr){
-   System.out.print(ele+ " ");
+    System.out.print(ele+ " ");
 }
     }
 }
